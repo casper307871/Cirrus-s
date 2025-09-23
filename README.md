@@ -1,12 +1,6 @@
 import os
 import json
 import sqlite3
-
-# ---------- CONFIG ----------
-BOT_TOKEN = "8483545145:AAFHSfiqTfhDVe3HVy5ZGHoxL5yUCYCqsoY"
-OWNER_ID = 6328533463
-FOLDER_NAME = "telegram_moderation_bot"
-
 # ---------- CREATE FOLDERS ----------
 os.makedirs(FOLDER_NAME, exist_ok=True)
 os.makedirs(os.path.join(FOLDER_NAME, "database"), exist_ok=True)
